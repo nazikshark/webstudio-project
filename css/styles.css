@@ -118,6 +118,7 @@ padding: 0;
 
 .mob-menu-close-btn{
   border-radius: 100%;
+  border: 1px solid #2e2f42;
 fill: #e7e9fc;
 border-color: #8e8f99;
 stroke-width: 1px;
@@ -127,6 +128,8 @@ stroke: #2e2f42;
   margin-left: auto;
  top: 24px;
  right: 24px;
+ width: 24px;
+ height: 24px;
 }
 
 .mob-menu-nav{
