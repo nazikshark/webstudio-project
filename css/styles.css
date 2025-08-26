@@ -19,7 +19,6 @@ ul,ol{
 }
 
 .container{
-  max-width: 320px;
   width: 320px;
   margin: 0 auto;
   padding: 0 16px;
@@ -205,12 +204,13 @@ color: #2e2f42;
     margin-left: auto;
     display: none;
 }
-
+.address-margin{
+  margin-bottom: 48px;
+}
 .address-list{
   gap: 24px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 48px;
 }
 .contact-link{
   color: #434455;
@@ -221,6 +221,7 @@ font-size: 20px;
 /* line-height: 24px; */ 
 line-height: 120%;
 letter-spacing: 0.02em;
+font-style: normal;
 }
 .tel{
   color: #4d5ae5;
@@ -251,9 +252,11 @@ letter-spacing: 0.02em;
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bggoods.png);
     background-size: cover;
     background-position: center;
-    max-width: 1440px;
+    max-width: 320px;
     background-repeat: no-repeat;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-resolution: 192dpi) {
@@ -345,20 +348,13 @@ margin: 0 auto 72px auto;
   display: none;
 }
 
-.hthree-secttwo{
-    font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 36px;
-
-/* line-height: 40px; */ 
-line-height: 111%;
+.hthree-secttwo{ 
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 8px;
 }
 .p-secttwo {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 
@@ -407,7 +403,6 @@ margin-bottom: 72px;
 }
 
 .hthree-setcthree{
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 
@@ -420,7 +415,6 @@ margin-bottom: 8px;
 }
 
 .p-sectthree{
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
@@ -482,7 +476,6 @@ margin-bottom: 8px;
 }
 
 .portfolio-title {
-font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 
@@ -540,7 +533,6 @@ margin-bottom: 72px;
 }
 
 .hthree-portfolio {
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 
@@ -552,7 +544,6 @@ margin-bottom: 8px;
 }
 
 .p-sectfour {
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
@@ -600,7 +591,6 @@ display: inline-block;
 }
 
 .footer-p {
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
@@ -616,7 +606,6 @@ color: #f4f4fd;
 }
 
 .p-social-media{
-  font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 
@@ -759,7 +748,7 @@ margin-bottom: 16px;
 background: #fcfcfc;
 border-radius: 4px; 
 transition: transform 250ms cubic-bezier(0.4 , 0 , 0.2 , 1);
-padding: 72px 24px 24px 24px;
+padding: 72px 16px 24px 16px;
 }
 .backdrop:not(.is-open).modal{
   transform: translate(-50%, -50%) scale(1.5 );
@@ -1040,11 +1029,13 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 @media screen and (min-width:768px){
 .container{
   width: 768px;
-  max-width: 768px;
 }
 .hero-banner{
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bggoodm.png);
   padding: 112px 0;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-resolution: 192dpi) {
   .hero-banner {
@@ -1069,14 +1060,11 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   gap: 40px;
 }
 .nav-link{
-  font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 
 /* line-height: 24px; */ 
 line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
 position: relative;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 text-decoration: none;
@@ -1113,7 +1101,6 @@ background-color: #404bbf;
 .address-link{
   display: block;
   font-size: 12px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-open-btn{
   display: none;
@@ -1125,15 +1112,10 @@ background-color: #404bbf;
     padding: 112px 0;
   }
   .hero-banner-title{
-  font-family: "Roboto", sans-serif;
-font-weight: 700;
 font-size: 56px;
 
 /* line-height: 60px; */ 
 line-height: 107%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
 width: 496px;
 margin-bottom: 36px;
   }
@@ -1151,21 +1133,7 @@ margin-bottom: 36px;
   .svg-studio{
   display: none;
 }
-.hthree-secttwo{
-  font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 36px;
-
-/* line-height: 40px; */ 
-line-height: 111%;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-  .p-secttwo{
-    width: 356px;
-  }
   .team-list{
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
@@ -1180,7 +1148,6 @@ grid-template-columns: repeat(2, 1fr);
     padding: 96px 0;
   }
   .footer-div {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 72px 24px; 
@@ -1204,18 +1171,21 @@ grid-template-columns: repeat(2, 1fr);
   flex-direction: row;
   gap: 24px;
 }
+.subscribe-input{
+  width: 264px;
+}
 .image-div{
   display: none;
 }
 .modal{
   width: 408px;
+  padding: 72px 24px 24px 24px;
 }
 }
 
 @media screen and (min-width:1158px) {
 .container{
   width: 1158px;
-  max-width: 1440px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
@@ -1223,24 +1193,27 @@ grid-template-columns: repeat(2, 1fr);
 .hero-banner{
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bggoodl.jpg);
   padding: 188px 0;
+  max-width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (min-resolution: 192dpi) {
   .hero-banner {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/bggoodl@2x.jpg");
   }
 }
+.hero-banner-title{
+  margin-bottom: 48px;
+}
 .webstudio-logo{
   margin-right: 76px;
 }
 .nav-link{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 
 /* line-height: 24px; */ 
 line-height: 150%;
-letter-spacing: 0.02em;
-color: #2e2f42;
 position: relative;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 text-decoration: none;
@@ -1295,17 +1268,14 @@ text-decoration: none;
   width: 264px;
 }
 .hthree-secttwo{
-  font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 
 /* line-height: 24px; */ 
 line-height: 120%;
-letter-spacing: 0.02em;
-color: #2e2f42;
 }
 .p-secttwo{
-  width: 264px;
+font-weight: 400;
 }
 .team{
   padding: 120px 0;
@@ -1316,7 +1286,6 @@ color: #2e2f42;
   align-items: center;
 }
 .team-list{
-  display: flex;
   flex-direction: row;
   gap: 24px;
   flex-wrap: nowrap;
@@ -1338,9 +1307,7 @@ color: #2e2f42;
 .footer{
   padding: 100px 0;
 }
-.footer-div{
-  display: flex;
-  flex-direction: row;
+.footer-div{ 
   gap: 0;
   width: 1158px;
   padding: 0 15px;
